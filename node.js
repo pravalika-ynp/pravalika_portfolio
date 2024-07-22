@@ -28,3 +28,4 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     };
     reader.readAsDataURL(file);
   }
+  
