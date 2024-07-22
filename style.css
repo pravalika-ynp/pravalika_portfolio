@@ -1,0 +1,146 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --light-bg: #ecf0f1;
+    --dark-bg: #34495e;
+    --text-color: #333;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark-mode {
+    background-color: var(--dark-bg);
+    color: #ecf0f1;
+  }
+  
+  header {
+    background-color: var(--light-bg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header.dark-mode {
+    background-color: var(--dark-bg);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  h1, h2, h3 {
+    color: var(--secondary-color);
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  a:hover {
+    color: var(--primary-color);
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Updated section title CSS */
+  .section-title {
+    font-size: 2.7rem; /* Adjust as needed */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Hidden class for image preview */
+  .hidden {
+    display: none;
+  }
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.25);
+    background-color: #f0faff;
+  }
+  
+  form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  form button:focus {
+    background-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.25);
+  }
+  .btn-primary {
+    background-color: #000000; /* Black color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #808080; /* Grey color */
+    transform: scale(1.05);
+  }
+  
+  .btn-primary:focus {
+    outline: none;
+    background-color: #00000048; /* Black color */
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.096); /* Adjusting the box-shadow to be black */
+  }
